@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" width="700">
+  <rect width="700" height="210" rx="10" fill="#0d1117"/>
+  <circle cx="22" cy="18" r="5" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="5" fill="#febc2e"/>
+  <circle cx="58" cy="18" r="5" fill="#28c840"/>
+  <text x="280" y="22" font-family="'JetBrains Mono', monospace" font-size="11" fill="#475569">git log --oneline</text>
+  <line x1="14" y1="30" x2="686" y2="30" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="20" y="54" font-family="'JetBrains Mono', monospace" font-size="12" fill="#475569">~</text>
+  <text x="34" y="54" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b">$</text>
+  <text x="48" y="54" font-family="'JetBrains Mono', monospace" font-size="12" fill="#2dd4bf">git log --oneline --all</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.4s" fill="freeze"/>
+    <text x="20" y="76" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">a3f9c2e</text>
+    <text x="95" y="76" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b">(</text>
+    <text x="103" y="76" font-family="'JetBrains Mono', monospace" font-size="12" fill="#2dd4bf">HEAD</text>
+    <text x="135" y="76" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b">-> main)</text>
+    <text x="196" y="76" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">feat: add multi-source dedup to DVS-Asia pipeline</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.7s" fill="freeze"/>
+    <text x="20" y="96" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">7b12d4a</text>
+    <text x="95" y="96" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">fix: WebRTC race condition on peer_joined in QRSLB</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/>
+    <text x="20" y="116" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">e88ac01</text>
+    <text x="95" y="116" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">feat: goroutine pool + context cancel in sitewatch</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.3s" fill="freeze"/>
+    <text x="20" y="136" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">c490f77</text>
+    <text x="95" y="136" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">chore: jpackage Serene Candy into portable .exe</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>
+    <text x="20" y="156" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">91be3dc</text>
+    <text x="95" y="156" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">feat: confidence-encoded fire markers on Leaflet map</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.9s" fill="freeze"/>
+    <text x="20" y="176" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">5f203b8</text>
+    <text x="95" y="176" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">init: backend engineer, building things that move data</text>
+  </g>
+
+  <rect x="20" y="185" width="7" height="13" fill="#2dd4bf" rx="1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" dur="0.3s" begin="2.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="2.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
