@@ -1,21 +1,204 @@
-# 💫 About Me:
-🔭 I’m currently working on:<br>A real-time disaster data visualization system (DVS-Asia) that unifies NASA, USGS, and GDACS satellite feeds into a single live analytics pipeline.<br><br>👯 I’m looking to collaborate on:<br>Distributed data systems, backend infrastructure, and analytics pipelines — anything that scales and moves data intelligently.<br><br>🌱 I’m currently learning:<br>Advanced machine learning, data-centric model optimization, and efficient ETL architecture design.<br><br>💬 Ask me about:<br>Backend architecture, data pipelines, geospatial systems, or hackathon project strategy.<br><br>⚡ Fun fact:<br>I either get hyper-focused for hours and forget to drink water,  or don’t touch a project for weeks. Deadlines are my natural energy source.
+<div align="center">
 
+<!-- ANIMATED HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00ff8c&height=120&section=header&text=&animation=fadeIn" width="100%"/>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/notsoteekhipanipuri?igsh=MTZyMWpjNjhrNmF3dA==) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vishmayraj-zala-121018336) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zalavishmayraj@gmail.com) 
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FF8C&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Vishmayraj+Zala+%2F%2F+Backend+Engineer;Building+real-time+systems+that+move+data+at+scale." alt="Typing SVG" />
+</a>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=plastic&logo=nVIDIA&logoColor=green) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=plastic&logo=javafx&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=plastic&logo=WordPress&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=plastic&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=plastic&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=plastic&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=Keras&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Vishmayraj&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Vishmayraj&theme=shadow_blue&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Vishmayraj&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<!-- STATUS BADGES ROW -->
+<img src="https://img.shields.io/badge/status-building_DVS--Asia-00ff8c?style=flat-square&labelColor=0a0e14&color=00ff8c" />
+&nbsp;
+<img src="https://img.shields.io/badge/location-Ahmedabad,_IN-00ff8c?style=flat-square&labelColor=0a0e14&color=00ff8c" />
+&nbsp;
+<img src="https://img.shields.io/badge/energy_source-deadlines-ff6b35?style=flat-square&labelColor=0a0e14" />
+
+<br/><br/>
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Vishmayraj&icon=7&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- ANIMATED TERMINAL SVG -->
+<div align="center">
+
+<svg viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg" width="700">
+  <rect width="700" height="90" rx="10" fill="#0a0e14"/>
+  <circle cx="22" cy="18" r="5" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="5" fill="#febc2e"/>
+  <circle cx="58" cy="18" r="5" fill="#28c840"/>
+  <line x1="14" y1="30" x2="686" y2="30" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="20" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a6a4a">$</text>
+  <text x="34" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00ff8c">
+    cat about.txt
+    <animate attributeName="opacity" values="1;1;0;0" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a6a4a">
+    <animate attributeName="opacity" values="0;0;1;1" dur="8s" repeatCount="indefinite"/>
+    $
+  </text>
+  <text x="34" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00ff8c">
+    <animate attributeName="opacity" values="0;0;1;1" dur="8s" repeatCount="indefinite"/>
+    python run_pipeline.py --env prod --watch
+  </text>
+  <text x="20" y="72" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7a9a7a">
+    Backend engineer · Data pipelines · Geospatial systems · ETL architecture
+  </text>
+  <rect x="20" y="58" width="8" height="14" fill="#00ff8c" rx="1">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+</div>
+
+<br/>
+
+---
+
+## `// about`
+
+```python
+vishmayraj = {
+    "role"      : "Backend Engineer",
+    "building"  : "DVS-Asia — real-time disaster analytics pipeline",
+    "learning"  : ["Advanced ML", "Data-centric model optimization", "ETL architecture"],
+    "collab_on" : ["Distributed systems", "Backend infra", "Analytics pipelines"],
+    "ask_me"    : ["Backend architecture", "Data pipelines", "Geospatial systems", "Hackathon strategy"],
+    "fun_fact"  : "I either hyperfocus for 6 hours and forget water, or don't touch a project for weeks. Deadlines are my natural energy source.",
+}
+```
+
+---
+
+## `// systems [ deployed ]`
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🛰 DVS-Asia
+**Real-time disaster visualization for Asia**
+
+Unified NASA FIRMS · USGS · GDACS satellite feeds into a single live analytics pipeline. Multi-source deduplication, live Leaflet map with polygon carpets, confidence-encoded fire markers, and a two-table earthquake archive.
+
+`FastAPI` `PostgreSQL` `Supabase` `GCP` `GitHub Actions` `Leaflet`
+
+🟢 **[Live →](https://disasterviz.onrender.com)**
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 QRSLB
+**QR Secure Link Bridge**
+
+Scan a QR on your phone → link opens instantly on your desktop. Zero login, zero install. Browser-native P2P via WebRTC DataChannel — the server never sees the link. Built for sending links to foreign/shared machines cleanly.
+
+`FastAPI` `WebRTC` `WebSockets` `Python`
+
+🟢 **[Live →](https://qrslb.onrender.com)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 sitewatch
+**Zero-dependency CLI uptime monitor in Go**
+
+Continuously monitors a URL and reports uptime, latency, and failures in real time. Goroutines, channels, context cancellation, mutexes — idiomatic Go, clean architecture. Ships as a single self-contained binary.
+
+`Go` `goroutines` `CLI` `structured logging`
+
+⚙️ **Binary release available**
+
+</td>
+<td width="50%" valign="top">
+
+### `// roadmap`
+```
+[ ] Global coverage — expand DVS beyond Asia
+[ ] Volcano pipeline — USGS / Smithsonian GVP
+[ ] QRSLB — batch link transfer per session
+[ ] Historical analytics on earthquake archive
+[ ] Redis session store for horizontal scaling
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## `// stack`
+
+<div align="center">
+
+<!-- Languages -->
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0a0e14?style=flat-square&logo=python&logoColor=00ff8c)
+![Go](https://img.shields.io/badge/Go-0a0e14?style=flat-square&logo=go&logoColor=00ff8c)
+![Java](https://img.shields.io/badge/Java-0a0e14?style=flat-square&logo=openjdk&logoColor=00ff8c)
+![C](https://img.shields.io/badge/C-0a0e14?style=flat-square&logo=c&logoColor=00ff8c)
+![Bash](https://img.shields.io/badge/Bash-0a0e14?style=flat-square&logo=gnu-bash&logoColor=00ff8c)
+
+**Backend & Infra**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0e14?style=flat-square&logo=fastapi&logoColor=00ff8c)
+![Flask](https://img.shields.io/badge/Flask-0a0e14?style=flat-square&logo=flask&logoColor=00ff8c)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00ff8c)
+![Supabase](https://img.shields.io/badge/Supabase-0a0e14?style=flat-square&logo=supabase&logoColor=00ff8c)
+![Firebase](https://img.shields.io/badge/Firebase-0a0e14?style=flat-square&logo=firebase&logoColor=00ff8c)
+![Google Cloud](https://img.shields.io/badge/GCP-0a0e14?style=flat-square&logo=google-cloud&logoColor=00ff8c)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a0e14?style=flat-square&logo=github-actions&logoColor=00ff8c)
+![Render](https://img.shields.io/badge/Render-0a0e14?style=flat-square&logo=render&logoColor=00ff8c)
+
+**ML & Data**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-0a0e14?style=flat-square&logo=pytorch&logoColor=00ff8c)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0e14?style=flat-square&logo=tensorflow&logoColor=00ff8c)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0e14?style=flat-square&logo=scikit-learn&logoColor=00ff8c)
+![Keras](https://img.shields.io/badge/Keras-0a0e14?style=flat-square&logo=keras&logoColor=00ff8c)
+![OpenCV](https://img.shields.io/badge/OpenCV-0a0e14?style=flat-square&logo=opencv&logoColor=00ff8c)
+![NumPy](https://img.shields.io/badge/NumPy-0a0e14?style=flat-square&logo=numpy&logoColor=00ff8c)
+![Pandas](https://img.shields.io/badge/Pandas-0a0e14?style=flat-square&logo=pandas&logoColor=00ff8c)
+
+</div>
+
+---
+
+## `// stats`
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Vishmayraj&show_icons=true&theme=chartreuse-dark&bg_color=0a0e14&border_color=00ff8c&title_color=00ff8c&icon_color=00ff8c&text_color=c8d0e0&hide_border=false&include_all_commits=true" />
+&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishmayraj&layout=compact&theme=chartreuse-dark&bg_color=0a0e14&border_color=00ff8c&title_color=00ff8c&text_color=c8d0e0&hide_border=false" />
+
+<br/><br/>
+
+<img width="70%" src="https://nirzak-streak-stats.vercel.app/?user=Vishmayraj&theme=chartreuse-dark&background=0a0e14&border=00ff8c&stroke=00ff8c&ring=00ff8c&fire=ff6b35&currStreakNum=00ff8c&sideNums=c8d0e0&currStreakLabel=00ff8c&sideLabels=7a8599&dates=7a8599" />
+
+</div>
+
+---
+
+## `// connect`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0e14?style=for-the-badge&logo=linkedin&logoColor=00ff8c)](https://linkedin.com/in/vishmayraj-zala-121018336)
+[![Gmail](https://img.shields.io/badge/Email-0a0e14?style=for-the-badge&logo=gmail&logoColor=00ff8c)](mailto:zalavishmayraj@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-0a0e14?style=for-the-badge&logo=instagram&logoColor=00ff8c)](https://instagram.com/notsoteekhipanipuri)
+[![GitHub](https://img.shields.io/badge/GitHub-0a0e14?style=for-the-badge&logo=github&logoColor=00ff8c)](https://github.com/Vishmayraj)
+
+<br/>
+
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00ff8c&height=80&section=footer" width="100%"/>
+
+</div>
