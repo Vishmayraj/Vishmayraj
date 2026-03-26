@@ -26,32 +26,7 @@
 <!-- ANIMATED TERMINAL SVG -->
 <div align="center">
 
-<svg viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg" width="700">
-  <rect width="700" height="90" rx="10" fill="#0d1117"/>
-  <circle cx="22" cy="18" r="5" fill="#ff5f57"/>
-  <circle cx="40" cy="18" r="5" fill="#febc2e"/>
-  <circle cx="58" cy="18" r="5" fill="#28c840"/>
-  <line x1="14" y1="30" x2="686" y2="30" stroke="#1e293b" stroke-width="1"/>
-  <text x="20" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#475569">$</text>
-  <text x="34" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#2dd4bf">
-    cat about.txt
-    <animate attributeName="opacity" values="1;1;0;0" dur="8s" repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#475569">
-    <animate attributeName="opacity" values="0;0;1;1" dur="8s" repeatCount="indefinite"/>
-    $
-  </text>
-  <text x="34" y="52" font-family="'JetBrains Mono', monospace" font-size="12" fill="#2dd4bf">
-    <animate attributeName="opacity" values="0;0;1;1" dur="8s" repeatCount="indefinite"/>
-    python run_pipeline.py --env prod --watch
-  </text>
-  <text x="20" y="72" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">
-    Backend engineer · Data pipelines · Geospatial systems · ETL architecture
-  </text>
-  <rect x="20" y="58" width="8" height="14" fill="#2dd4bf" rx="1">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-</svg>
+<img src="git-log.svg" width="700" alt="git log --oneline"/>
 
 </div>
 
