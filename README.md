@@ -17,8 +17,6 @@
 &nbsp;
 <img src="https://img.shields.io/badge/energy_source-deadlines-f97316?style=flat-square&labelColor=0d1117" />
 
-<br/><br/>
-
 </div>
 
 ---
@@ -29,8 +27,6 @@
 <img src="svgs/git-log.svg" width="700" alt="git log --oneline"/>
 
 </div>
-
-<br/>
 
 ---
 
@@ -55,15 +51,9 @@ vishmayraj = {
 
 <img src="svgs/dvs_asia_final.svg" width="700" alt="DVS-Asia — Real-time disaster analytics pipeline"/>
 
-<br/><br/>
-
 <img src="svgs/qrslb_project_card.svg" width="700" alt="QRSLB — Secure cross-device link transfer"/>
 
-<br/><br/>
-
 <img src="svgs/sitewatch_project_card.svg" width="700" alt="sitewatch — Real-time CLI uptime monitor"/>
-
-<br/><br/>
 
 <img src="svgs/roadmap_project_card_v2.svg" width="700" alt="roadmap — Systems I'm building toward"/>
 
@@ -114,8 +104,6 @@ vishmayraj = {
 
 <img width="70%" src="https://streak-stats.demolab.com?user=Vishmayraj&theme=transparent&background=0d1117&border=2dd4bf&stroke=2dd4bf&ring=2dd4bf&fire=f97316&currStreakNum=2dd4bf&sideNums=94a3b8&currStreakLabel=2dd4bf&sideLabels=64748b&dates=64748b" />
 
-<br/><br/>
-
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishmayraj&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=94a3b8&area=true&area_color=2dd4bf&border_color=2dd4bf&title_color=2dd4bf&hide_border=false" />
 
 </div>
@@ -129,9 +117,6 @@ vishmayraj = {
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=2dd4bf)](https://linkedin.com/in/vishmayraj-zala-121018336)
 [![Gmail](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=2dd4bf)](mailto:zalavishmayraj@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=2dd4bf)](https://instagram.com/notsoteekhipanipuri)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=2dd4bf)](https://github.com/Vishmayraj)
-
-<br/>
 
 <!-- FOOTER WAVE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=2dd4bf&height=80&section=footer" width="100%"/>
