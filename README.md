@@ -26,7 +26,7 @@
 <!-- ANIMATED TERMINAL SVG -->
 <div align="center">
 
-<img src="git-log.svg" width="700" alt="git log --oneline"/>
+<img src="svgs/git-log.svg" width="700" alt="git log --oneline"/>
 
 </div>
 
@@ -51,63 +51,23 @@ vishmayraj = {
 
 ## `# systems deployed`
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-**🛰 DVS-Asia**
+<img src="svgs/dvs_asia_final.svg" width="700" alt="DVS-Asia — Real-time disaster analytics pipeline"/>
 
-Real-time disaster visualization for Asia
+<br/><br/>
 
-Unified NASA FIRMS · USGS · GDACS satellite feeds into a single live analytics pipeline. Multi-source deduplication, live Leaflet map with polygon carpets, confidence-encoded fire markers, and a two-table earthquake archive.
+<img src="svgs/qrslb_project_card.svg" width="700" alt="QRSLB — Secure cross-device link transfer"/>
 
-`FastAPI` `PostgreSQL` `Supabase` `GCP` `GitHub Actions` `Leaflet`
+<br/><br/>
 
-🟢 **[Live →](https://disasterviz.onrender.com)**
+<img src="svgs/sitewatch_project_card.svg" width="700" alt="sitewatch — Real-time CLI uptime monitor"/>
 
-</td>
-<td width="50%" valign="top">
+<br/><br/>
 
-**📡 QRSLB**
+<img src="svgs/roadmap_project_card_v2.svg" width="700" alt="roadmap — Systems I'm building toward"/>
 
-QR Secure Link Bridge
-
-Scan a QR on your phone → link opens instantly on your desktop. Zero login, zero install. Browser-native P2P via WebRTC DataChannel — the server never sees the link. Built for sending links to foreign/shared machines cleanly.
-
-`FastAPI` `WebRTC` `WebSockets` `Python`
-
-🟢 **[Live →](https://qrslb.onrender.com)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🔍 sitewatch**
-
-Zero-dependency CLI uptime monitor in Go
-
-Continuously monitors a URL and reports uptime, latency, and failures in real time. Goroutines, channels, context cancellation, mutexes — idiomatic Go, clean architecture. Ships as a single self-contained binary.
-
-`Go` `goroutines` `CLI` `structured logging`
-
-⚙️ **Binary release available**
-
-</td>
-<td width="50%" valign="top">
-
-**`# roadmap`**
-```
-[ ] Global coverage — expand DVS beyond Asia
-[ ] Volcano pipeline — USGS / Smithsonian GVP
-[ ] QRSLB — batch link transfer per session
-[ ] Historical analytics on earthquake archive
-[ ] Redis session store for horizontal scaling
-```
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
