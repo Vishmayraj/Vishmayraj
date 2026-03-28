@@ -49,13 +49,24 @@ vishmayraj = {
 
 <div align="center">
 
-<img src="svgs/dvs_asia_final.svg" width="700" alt="DVS-Asia — Real-time disaster analytics pipeline"/>
+<a href="https://disasterviz.onrender.com">
+  <img src="svgs/dvs_asia_final.svg" width="800"/>
+</a>
+<br/>
 
-<img src="svgs/qrslb_project_card.svg" width="700" alt="QRSLB — Secure cross-device link transfer"/>
+<a href="https://qrslb.onrender.com">
+  <img src="svgs/qrslb_project_card.svg" width="800"/>
+</a>
+<br/>
 
-<img src="svgs/sitewatch_project_card.svg" width="700" alt="sitewatch — Real-time CLI uptime monitor"/>
+<a href="https://github.com/Vishmayraj/sitewatch">
+  <img src="svgs/sitewatch_project_card.svg" width="800"/>
+</a>
+<br/>
 
-<img src="svgs/roadmap_project_card_v2.svg" width="700" alt="roadmap — Systems I'm building toward"/>
+<a href="https://github.com/Vishmayraj">
+  <img src="svgs/roadmap_project_card_v2.svg" width="800"/>
+</a>
 
 </div>
 
