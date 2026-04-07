@@ -42,8 +42,8 @@
 
 ## `# lore`
 
-```
-> Vishmayraj — Backend Engineer
+```bash
+> Vishmayraj ~ Backend Engineer
 
 Specializes in building real-time systems where data is not stored,
 but constantly in motion.
@@ -57,7 +57,7 @@ Current focus:
 → pushing DVS-Asia into a full-scale disaster intelligence system
 
 Next objective:
-→ Google Internship (LOCKED)
+→ Portfolio Website (Phaser)
 ```
 
 ---

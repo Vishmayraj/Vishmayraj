@@ -1,234 +1,235 @@
-<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" width="700" shape-rendering="crispEdges">
+<svg viewBox="0 0 800 680" xmlns="http://www.w3.org/2000/svg" width="800" shape-rendering="crispEdges">
   <defs>
-    <clipPath id="ppc">
-      <rect x="0" y="0" width="700" height="560" rx="0"/>
-    </clipPath>
-    <!-- Pixel font simulation via monospace -->
-    <style>
-      .px { font-family: 'JetBrains Mono', 'Courier New', monospace; }
-    </style>
+    <style>.px { font-family: 'JetBrains Mono', 'Courier New', monospace; }</style>
   </defs>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BACKGROUND                                  -->
-  <!-- ═══════════════════════════════════════════ -->
-  <rect width="700" height="560" fill="#0d1117"/>
+  <!-- BACKGROUND -->
+  <rect width="800" height="680" fill="#0d1117"/>
 
-  <!-- Scanline texture -->
-  <rect width="700" height="560" fill="url(#scan)" opacity="0.03"/>
+  <!-- CORNER BRACKETS -->
+  <rect x="8" y="8" width="4" height="28" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="8" y="8" width="28" height="4" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="788" y="8" width="4" height="28" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="764" y="8" width="28" height="4" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="8" y="644" width="4" height="28" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="8" y="668" width="28" height="4" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="788" y="644" width="4" height="28" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="764" y="668" width="28" height="4" fill="#2dd4bf" opacity="0.7"/>
 
-  <!-- Pixel grid dots (subtle) -->
-  <g opacity="0.04" fill="#2dd4bf">
-    <rect x="0" y="0" width="700" height="560">
-    </rect>
-  </g>
+  <!-- TITLEBAR -->
+  <rect x="0" y="0" width="800" height="44" fill="#080c11"/>
+  <rect x="0" y="43" width="800" height="2" fill="#2dd4bf" opacity="0.35"/>
+  <rect x="20" y="16" width="10" height="10" fill="#ff5f57"/>
+  <rect x="37" y="16" width="10" height="10" fill="#febc2e"/>
+  <rect x="54" y="16" width="10" height="10" fill="#28c840"/>
+  <text x="400" y="29" text-anchor="middle" class="px" font-size="13" fill="#475569">player_profile.exe</text>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- DECORATIVE PIXEL CORNER ACCENTS             -->
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- Top-left L bracket -->
-  <rect x="12" y="12" width="3" height="20" fill="#2dd4bf" opacity="0.6"/>
-  <rect x="12" y="12" width="20" height="3" fill="#2dd4bf" opacity="0.6"/>
-  <!-- Top-right L bracket -->
-  <rect x="685" y="12" width="3" height="20" fill="#2dd4bf" opacity="0.6"/>
-  <rect x="665" y="12" width="20" height="3" fill="#2dd4bf" opacity="0.6"/>
-  <!-- Bottom-left L bracket -->
-  <rect x="12" y="525" width="3" height="20" fill="#2dd4bf" opacity="0.6"/>
-  <rect x="12" y="545" width="20" height="3" fill="#2dd4bf" opacity="0.6"/>
-  <!-- Bottom-right L bracket -->
-  <rect x="685" y="525" width="3" height="20" fill="#2dd4bf" opacity="0.6"/>
-  <rect x="665" y="545" width="20" height="3" fill="#2dd4bf" opacity="0.6"/>
+  <!-- ════════════════════════════════════════ -->
+  <!-- LEFT PANEL — CHARACTER CARD             -->
+  <!-- ════════════════════════════════════════ -->
+  <rect x="18" y="58" width="318" height="448" fill="#080c11" stroke="#1e293b" stroke-width="2"/>
+  <rect x="18" y="58" width="318" height="3" fill="#2dd4bf" opacity="0.6"/>
+  <rect x="18" y="58" width="3" height="448" fill="#2dd4bf" opacity="0.25"/>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- HEADER: PLAYER_PROFILE                      -->
-  <!-- ═══════════════════════════════════════════ -->
-  <rect x="0" y="0" width="700" height="38" fill="#0a0e14"/>
-  <rect x="0" y="37" width="700" height="2" fill="#2dd4bf" opacity="0.3"/>
-  <!-- macOS traffic lights pixel style -->
-  <rect x="18" y="14" width="8" height="8" fill="#ff5f57" rx="0"/>
-  <rect x="32" y="14" width="8" height="8" fill="#febc2e" rx="0"/>
-  <rect x="46" y="14" width="8" height="8" fill="#28c840" rx="0"/>
-  <text x="350" y="24" text-anchor="middle" class="px" font-size="11" fill="#475569">player_profile.exe</text>
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- CHARACTER — user's design, repositioned +6y   -->
+  <!-- Original coords from document shifted y+6     -->
+  <!-- so head top = 72, boots bottom = 346          -->
+  <!-- horizontally: character spans x=97–257        -->
+  <!-- panel center x=177, already centered          -->
+  <!-- ══════════════════════════════════════════════ -->
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- SECTION 1: PLAYER CARD (left panel)         -->
-  <!-- ═══════════════════════════════════════════ -->
-
-  <!-- Outer border — pixel style (no rx) -->
-  <rect x="20" y="52" width="320" height="340" fill="#0a0e14" stroke="#1e293b" stroke-width="2" rx="0"/>
-  <rect x="20" y="52" width="320" height="2" fill="#2dd4bf" opacity="0.5"/>
-  <rect x="20" y="52" width="2" height="340" fill="#2dd4bf" opacity="0.5"/>
-
-  <!-- Pixel character sprite (16x16 blocks, ~80px total) -->
-  <!-- Head -->
-  <rect x="128" y="66" width="64" height="56" fill="#1e293b" rx="0"/>
-  <!-- Face pixels -->
-  <rect x="132" y="70" width="56" height="48" fill="#2dd4bf" opacity="0.15" rx="0"/>
+  <!-- HEAD (old flat pixel style, user's version) -->
+  <rect x="128" y="72" width="64" height="56" fill="#1e293b"/>
+  <!-- Face overlay -->
+  <rect x="132" y="76" width="56" height="48" fill="#2dd4bf" opacity="0.15"/>
   <!-- Eyes -->
-  <rect x="140" y="80" width="8" height="8" fill="#2dd4bf" rx="0"/>
-  <rect x="172" y="80" width="8" height="8" fill="#2dd4bf" rx="0"/>
+  <rect x="140" y="86" width="8" height="8" fill="#2dd4bf"/>
+  <rect x="172" y="86" width="8" height="8" fill="#2dd4bf"/>
   <!-- Mouth -->
-  <rect x="144" y="96" width="4" height="4" fill="#2dd4bf" rx="0"/>
-  <rect x="148" y="100" width="16" height="4" fill="#2dd4bf" rx="0"/>
-  <rect x="164" y="96" width="4" height="4" fill="#2dd4bf" rx="0"/>
-  <!-- Torso -->
-  <rect x="112" y="122" width="96" height="56" fill="#162032" rx="0"/>
-  <!-- Collar -->
-  <rect x="148" y="122" width="24" height="8" fill="#2dd4bf" opacity="0.6" rx="0"/>
-  <!-- Left arm -->
-  <rect x="96" y="122" width="16" height="40" fill="#1e293b" rx="0"/>
-  <!-- Right arm -->
-  <rect x="208" y="122" width="16" height="40" fill="#1e293b" rx="0"/>
-  <!-- Legs -->
-  <rect x="128" y="178" width="24" height="32" fill="#162032" rx="0"/>
-  <rect x="160" y="178" width="24" height="32" fill="#162032" rx="0"/>
-  <!-- Feet -->
-  <rect x="124" y="210" width="28" height="8" fill="#0d1117" rx="0"/>
-  <rect x="160" y="210" width="28" height="8" fill="#0d1117" rx="0"/>
+  <rect x="144" y="102" width="4" height="4" fill="#2dd4bf"/>
+  <rect x="148" y="106" width="16" height="4" fill="#2dd4bf"/>
+  <rect x="164" y="102" width="4" height="4" fill="#2dd4bf"/>
 
-  <!-- Separator line under sprite -->
-  <rect x="28" y="228" width="304" height="1" fill="#1e293b"/>
+  <!-- TORSO (user's version, shifted y+6) -->
+  <rect x="129" y="162" width="96" height="88" fill="#1a4a5e"/>
+  <!-- Chest highlight -->
+  <rect x="137" y="166" width="80" height="36" fill="#1e5878"/>
+  <!-- Belt -->
+  <rect x="129" y="242" width="96" height="8" fill="#0d1e2e"/>
+  <rect x="169" y="242" width="16" height="8" fill="#f97316" opacity="0.75"/>
+  <!-- Belt buckle inner -->
+  <rect x="173" y="244" width="8" height="4" fill="#f97316" opacity="0.4"/>
 
-  <!-- Name + Level -->
-  <text x="180" y="250" text-anchor="middle" class="px" font-size="15" fill="#2dd4bf" font-weight="700">Vishmayraj</text>
-  <!-- Level badge -->
-  <rect x="248" y="237" width="52" height="18" fill="#f97316" opacity="0.15" rx="0"/>
-  <rect x="248" y="237" width="52" height="18" fill="none" stroke="#f97316" stroke-width="1.5" rx="0"/>
-  <text x="274" y="250" text-anchor="middle" class="px" font-size="10" fill="#f97316" font-weight="700">Lv. 17</text>
+  <!-- LEFT ARM (user's version, shifted y+6) -->
+  <rect x="97" y="162" width="32" height="88" fill="#1a4a5e"/>
+  <rect x="101" y="166" width="20" height="76" fill="#1e5878"/>
+  <!-- Sleeve cuff -->
+  <rect x="97" y="238" width="32" height="8" fill="#122e40"/>
+  <!-- Wrist/hand skin -->
+  <rect x="97" y="246" width="32" height="20" fill="#c8956c"/>
+  <rect x="101" y="258" width="24" height="8" fill="#b07450"/>
 
-  <!-- Class + Guild -->
-  <text x="32" y="275" class="px" font-size="10" fill="#64748b">CLASS</text>
-  <text x="32" y="290" class="px" font-size="11" fill="#94a3b8">Backend Engineer</text>
-  <text x="32" y="308" class="px" font-size="10" fill="#64748b">GUILD</text>
-  <text x="32" y="323" class="px" font-size="11" fill="#94a3b8">Real-Time · Distributed Systems</text>
+  <!-- RIGHT ARM (user's version, shifted y+6) -->
+  <rect x="225" y="162" width="32" height="88" fill="#1a4a5e"/>
+  <rect x="233" y="166" width="20" height="76" fill="#1e5878"/>
+  <rect x="225" y="238" width="32" height="8" fill="#122e40"/>
+  <rect x="225" y="246" width="32" height="20" fill="#c8956c"/>
+  <rect x="229" y="258" width="24" height="8" fill="#b07450"/>
 
-  <!-- HP bar -->
-  <text x="32" y="347" class="px" font-size="10" fill="#64748b">HP</text>
-  <rect x="60" y="337" width="160" height="10" fill="#0a0e14" rx="0"/>
-  <rect x="60" y="337" width="128" height="10" fill="#2dd4bf" opacity="0.8" rx="0"/>
-  <rect x="62" y="339" width="4" height="6" fill="#2dd4bf" opacity="0.3" rx="0"/>
-  <text x="228" y="347" class="px" font-size="10" fill="#475569">80%</text>
+  <!-- LEFT LEG (user's version, shifted y+6) -->
+  <rect x="129" y="250" width="44" height="96" fill="#0f2a3e"/>
+  <rect x="133" y="254" width="32" height="84" fill="#122e44"/>
+  <!-- Knee highlight -->
+  <rect x="133" y="290" width="32" height="8" fill="#0f2a3e"/>
+  <!-- Boot -->
+  <rect x="125" y="338" width="48" height="8" fill="#0a1620"/>
 
-  <!-- MP bar -->
-  <text x="32" y="363" class="px" font-size="10" fill="#64748b">MP</text>
-  <rect x="60" y="353" width="160" height="10" fill="#0a0e14" rx="0"/>
-  <rect x="60" y="353" width="160" height="10" fill="#f97316" opacity="0.75" rx="0"/>
-  <rect x="62" y="355" width="4" height="6" fill="#f97316" opacity="0.3" rx="0"/>
-  <text x="228" y="363" class="px" font-size="10" fill="#475569">100%</text>
+  <!-- RIGHT LEG (user's version, shifted y+6) -->
+  <rect x="181" y="250" width="44" height="96" fill="#0f2a3e"/>
+  <rect x="185" y="254" width="32" height="84" fill="#122e44"/>
+  <rect x="185" y="290" width="32" height="8" fill="#0f2a3e"/>
+  <!-- Boot -->
+  <rect x="181" y="338" width="48" height="8" fill="#0a1620"/>
 
-  <!-- Special trait badge -->
-  <rect x="32" y="374" width="296" height="1" fill="#1e293b"/>
-  <text x="32" y="388" class="px" font-size="9" fill="#f97316" opacity="0.8">✦ TRAIT  Deadlines → +200% Focus Boost</text>
+  <!-- ── NAME + LEVEL + STATS ── -->
+  <rect x="28" y="358" width="298" height="2" fill="#1e293b"/>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- SECTION 1: RIGHT PANEL (quests/skills)      -->
-  <!-- ═══════════════════════════════════════════ -->
+  <text x="177" y="382" text-anchor="middle" class="px" font-size="19" fill="#2dd4bf" font-weight="700">Vishmayraj</text>
+  <rect x="234" y="366" width="70" height="24" fill="#f97316" opacity="0.12"/>
+  <rect x="234" y="366" width="70" height="24" fill="none" stroke="#f97316" stroke-width="2"/>
+  <text x="269" y="382" text-anchor="middle" class="px" font-size="12" fill="#f97316" font-weight="700">Lv. 18</text>
 
-  <rect x="356" y="52" width="328" height="340" fill="#0a0e14" stroke="#1e293b" stroke-width="2" rx="0"/>
-  <rect x="356" y="52" width="328" height="2" fill="#f97316" opacity="0.5"/>
-  <rect x="682" y="52" width="2" height="340" fill="#f97316" opacity="0.5"/>
+  <text x="30" y="412" class="px" font-size="11" fill="#475569">CLASS</text>
+  <text x="30" y="431" class="px" font-size="13" fill="#94a3b8">Backend Engineer</text>
+  <text x="30" y="455" class="px" font-size="11" fill="#475569">GUILD</text>
+  <text x="30" y="474" class="px" font-size="13" fill="#94a3b8">Real-Time · Distributed</text>
 
-  <!-- CURRENT QUEST -->
-  <text x="368" y="74" class="px" font-size="10" fill="#f97316" font-weight="700">[ ACTIVE QUEST ]</text>
-  <rect x="368" y="79" width="304" height="1" fill="#1e2030"/>
-  <text x="374" y="96" class="px" font-size="11" fill="#2dd4bf" font-weight="700">→ DVS-Asia</text>
-  <text x="374" y="112" class="px" font-size="10" fill="#64748b">real-time disaster analytics pipeline</text>
+  <!-- HP -->
+  <text x="30" y="504" class="px" font-size="13" fill="#64748b">HP</text>
+  <rect x="64" y="492" width="218" height="16" fill="#0a0e14"/>
+  <rect x="64" y="492" width="174" height="16" fill="#2dd4bf" opacity="0.85"/>
+  <rect x="85"  y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="107" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="129" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="151" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="173" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="195" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="217" y="492" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <text x="290" y="505" class="px" font-size="13" fill="#475569">80%</text>
+
+  <!-- MP -->
+  <text x="30" y="530" class="px" font-size="13" fill="#64748b">MP</text>
+  <rect x="64" y="518" width="218" height="16" fill="#0a0e14"/>
+  <rect x="64" y="518" width="218" height="16" fill="#f97316" opacity="0.7"/>
+  <rect x="85"  y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="107" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="129" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="151" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="173" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="195" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <rect x="217" y="518" width="2" height="16" fill="#0a0e14" opacity="0.65"/>
+  <text x="290" y="531" class="px" font-size="13" fill="#475569">100%</text>
+
+  <!-- TRAIT -->
+  <rect x="28" y="544" width="298" height="2" fill="#1e293b"/>
+  <text x="30" y="563" class="px" font-size="12" fill="#f97316">✦  TRAIT</text>
+  <text x="30" y="581" class="px" font-size="12" fill="#64748b">Deadlines → +200% Focus Boost</text>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- RIGHT PANEL — QUESTS / INFO             -->
+  <!-- ════════════════════════════════════════ -->
+  <rect x="354" y="58" width="428" height="448" fill="#080c11" stroke="#1e293b" stroke-width="2"/>
+  <rect x="354" y="58" width="428" height="3" fill="#f97316" opacity="0.55"/>
+  <rect x="779" y="58" width="3" height="448" fill="#f97316" opacity="0.25"/>
+
+  <!-- ACTIVE QUEST -->
+  <text x="370" y="92" class="px" font-size="13" fill="#f97316" font-weight="700">[ ACTIVE QUEST ]</text>
+  <rect x="370" y="98" width="398" height="2" fill="#1e2030"/>
+  <text x="378" y="122" class="px" font-size="15" fill="#2dd4bf" font-weight="700">→  DVS-Asia</text>
+  <text x="378" y="142" class="px" font-size="12" fill="#64748b">real-time disaster analytics pipeline</text>
 
   <!-- LEARNING PATH -->
-  <text x="368" y="134" class="px" font-size="10" fill="#f97316" font-weight="700">[ LEARNING PATH ]</text>
-  <rect x="368" y="139" width="304" height="1" fill="#1e2030"/>
-  <text x="374" y="156" class="px" font-size="10" fill="#94a3b8">• Advanced ML</text>
-  <text x="374" y="172" class="px" font-size="10" fill="#94a3b8">• Data-centric optimization</text>
-  <text x="374" y="188" class="px" font-size="10" fill="#94a3b8">• ETL architecture</text>
+  <rect x="370" y="160" width="398" height="2" fill="#1e2030"/>
+  <text x="370" y="182" class="px" font-size="13" fill="#f97316" font-weight="700">[ LEARNING PATH ]</text>
+  <rect x="370" y="188" width="398" height="2" fill="#1e2030"/>
+  <text x="378" y="211" class="px" font-size="13" fill="#94a3b8">▸  Advanced ML</text>
+  <text x="378" y="233" class="px" font-size="13" fill="#94a3b8">▸  Data-centric optimization</text>
+  <text x="378" y="255" class="px" font-size="13" fill="#94a3b8">▸  ETL architecture</text>
 
-  <!-- OPEN TO PARTY -->
-  <text x="368" y="210" class="px" font-size="10" fill="#f97316" font-weight="700">[ PARTY INVITE ]</text>
-  <rect x="368" y="215" width="304" height="1" fill="#1e2030"/>
-  <text x="374" y="232" class="px" font-size="10" fill="#94a3b8">• Distributed systems</text>
-  <text x="374" y="248" class="px" font-size="10" fill="#94a3b8">• Backend infrastructure</text>
-  <text x="374" y="264" class="px" font-size="10" fill="#94a3b8">• Analytics pipelines</text>
+  <!-- PARTY INVITE -->
+  <rect x="370" y="272" width="398" height="2" fill="#1e2030"/>
+  <text x="370" y="294" class="px" font-size="13" fill="#f97316" font-weight="700">[ PARTY INVITE ]</text>
+  <rect x="370" y="300" width="398" height="2" fill="#1e2030"/>
+  <text x="378" y="323" class="px" font-size="13" fill="#94a3b8">▸  Distributed systems</text>
+  <text x="378" y="345" class="px" font-size="13" fill="#94a3b8">▸  Backend infrastructure</text>
+  <text x="378" y="367" class="px" font-size="13" fill="#94a3b8">▸  Analytics pipelines</text>
 
   <!-- DIALOGUE OPTIONS -->
-  <text x="368" y="286" class="px" font-size="10" fill="#f97316" font-weight="700">[ DIALOGUE OPTIONS ]</text>
-  <rect x="368" y="291" width="304" height="1" fill="#1e2030"/>
-  <text x="374" y="308" class="px" font-size="10" fill="#94a3b8">• Backend architecture</text>
-  <text x="374" y="324" class="px" font-size="10" fill="#94a3b8">• Geospatial systems</text>
-  <text x="374" y="340" class="px" font-size="10" fill="#94a3b8">• Hackathon strategy</text>
-  <text x="374" y="356" class="px" font-size="10" fill="#94a3b8">• Data pipelines</text>
-  <text x="374" y="375" class="px" font-size="9" fill="#475569">[ Press E to interact ]</text>
+  <rect x="370" y="384" width="398" height="2" fill="#1e2030"/>
+  <text x="370" y="406" class="px" font-size="13" fill="#f97316" font-weight="700">[ DIALOGUE OPTIONS ]</text>
+  <rect x="370" y="412" width="398" height="2" fill="#1e2030"/>
+  <text x="378" y="435" class="px" font-size="13" fill="#94a3b8">▸  Backend architecture</text>
+  <text x="378" y="457" class="px" font-size="13" fill="#94a3b8">▸  Data pipelines</text>
+  <text x="378" y="479" class="px" font-size="13" fill="#94a3b8">▸  Geospatial systems</text>
+  <text x="378" y="501" class="px" font-size="13" fill="#94a3b8">▸  Hackathon strategy</text>
 
-  <!-- Blinking cursor -->
-  <rect x="368" y="378" width="7" height="2" fill="#2dd4bf" opacity="0">
+  <!-- Press E -->
+  <rect x="370" y="510" width="398" height="2" fill="#1e2030"/>
+  <text x="370" y="528" class="px" font-size="11" fill="#334155">[ Press  E  to interact ]</text>
+  <rect x="370" y="532" width="10" height="3" fill="#2dd4bf">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- SECTION 2: PROGRESSION BARS                 -->
-  <!-- ═══════════════════════════════════════════ -->
+  <!-- ════════════════════════════════════════ -->
+  <!-- BOTTOM PANEL — PROGRESSION              -->
+  <!-- ════════════════════════════════════════ -->
+  <rect x="18" y="518" width="764" height="152" fill="#080c11" stroke="#1e293b" stroke-width="2"/>
+  <rect x="18" y="518" width="764" height="3" fill="#2dd4bf" opacity="0.35"/>
 
-  <rect x="20" y="408" width="664" height="136" fill="#0a0e14" stroke="#1e293b" stroke-width="2" rx="0"/>
-  <rect x="20" y="408" width="664" height="2" fill="#2dd4bf" opacity="0.3"/>
+  <text x="30" y="543" class="px" font-size="13" fill="#475569" font-weight="700">// progression</text>
 
-  <text x="32" y="428" class="px" font-size="10" fill="#475569" font-weight="700">// progression</text>
+  <!-- Backend Mastery 75% -->
+  <text x="30" y="572" class="px" font-size="13" fill="#94a3b8">Backend Mastery</text>
+  <rect x="210" y="559" width="490" height="16" fill="#0d1117"/>
+  <rect x="210" y="559" width="368" height="16" fill="#2dd4bf" opacity="0.8"/>
+  <rect x="259" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="308" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="357" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="406" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="455" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="504" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="553" y="559" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <text x="712" y="572" class="px" font-size="13" fill="#2dd4bf">75%</text>
 
-  <!-- Bar rows -->
-  <!-- Row 1: Backend Mastery 75% -->
-  <text x="32" y="450" class="px" font-size="10" fill="#94a3b8">Backend Mastery</text>
-  <rect x="188" y="440" width="400" height="10" fill="#0d1117" rx="0"/>
-  <!-- Segmented pixel bar -->
-  <rect x="188" y="440" width="300" height="10" fill="#2dd4bf" opacity="0.8" rx="0"/>
-  <!-- Pixel segmentation lines -->
-  <rect x="218" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="248" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="278" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="308" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="338" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="368" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="398" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="428" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="458" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="488" y="440" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <text x="596" y="450" class="px" font-size="10" fill="#2dd4bf">75%</text>
+  <!-- System Design 60% -->
+  <text x="30" y="602" class="px" font-size="13" fill="#94a3b8">System Design</text>
+  <rect x="210" y="589" width="490" height="16" fill="#0d1117"/>
+  <rect x="210" y="589" width="294" height="16" fill="#2dd4bf" opacity="0.8"/>
+  <rect x="259" y="589" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="308" y="589" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="357" y="589" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="406" y="589" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="455" y="589" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <text x="712" y="602" class="px" font-size="13" fill="#2dd4bf">60%</text>
 
-  <!-- Row 2: System Design 60% -->
-  <text x="32" y="468" class="px" font-size="10" fill="#94a3b8">System Design</text>
-  <rect x="188" y="458" width="400" height="10" fill="#0d1117" rx="0"/>
-  <rect x="188" y="458" width="240" height="10" fill="#2dd4bf" opacity="0.8" rx="0"/>
-  <rect x="218" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="248" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="278" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="308" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="338" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="368" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="398" y="458" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <text x="596" y="468" class="px" font-size="10" fill="#2dd4bf">60%</text>
+  <!-- Distributed Systems 55% -->
+  <text x="30" y="632" class="px" font-size="13" fill="#94a3b8">Distributed Sys</text>
+  <rect x="210" y="619" width="490" height="16" fill="#0d1117"/>
+  <rect x="210" y="619" width="270" height="16" fill="#f97316" opacity="0.75"/>
+  <rect x="259" y="619" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="308" y="619" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="357" y="619" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="406" y="619" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <text x="712" y="632" class="px" font-size="13" fill="#f97316">55%</text>
 
-  <!-- Row 3: Distributed Systems 55% -->
-  <text x="32" y="486" class="px" font-size="10" fill="#94a3b8">Distributed Sys</text>
-  <rect x="188" y="476" width="400" height="10" fill="#0d1117" rx="0"/>
-  <rect x="188" y="476" width="220" height="10" fill="#f97316" opacity="0.75" rx="0"/>
-  <rect x="218" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="248" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="278" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="308" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="338" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="368" y="476" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <text x="596" y="486" class="px" font-size="10" fill="#f97316">55%</text>
-
-  <!-- Row 4: Machine Learning 40% -->
-  <text x="32" y="504" class="px" font-size="10" fill="#94a3b8">Machine Learning</text>
-  <rect x="188" y="494" width="400" height="10" fill="#0d1117" rx="0"/>
-  <rect x="188" y="494" width="160" height="10" fill="#f97316" opacity="0.6" rx="0"/>
-  <rect x="218" y="494" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="248" y="494" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="278" y="494" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <rect x="308" y="494" width="1" height="10" fill="#0a0e14" opacity="0.5"/>
-  <text x="596" y="504" class="px" font-size="10" fill="#f97316">40%</text>
-
-  <!-- EXP total footer -->
-  <rect x="20" y="527" width="664" height="1" fill="#1e293b"/>
-  <text x="32" y="544" class="px" font-size="9" fill="#2d3f52">xp_total:</text>
-  <text x="88" y="544" class="px" font-size="9" fill="#2dd4bf"> ▓▓▓▓▓▓▓░░░ LEVELING UP</text>
-  <text x="580" y="544" class="px" font-size="9" fill="#f97316" text-anchor="end">energy_src: deadlines</text>
+  <!-- Machine Learning 40% -->
+  <text x="30" y="662" class="px" font-size="13" fill="#94a3b8">Machine Learning</text>
+  <rect x="210" y="649" width="490" height="16" fill="#0d1117"/>
+  <rect x="210" y="649" width="196" height="16" fill="#f97316" opacity="0.65"/>
+  <rect x="259" y="649" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="308" y="649" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <rect x="357" y="649" width="2" height="16" fill="#0a0e14" opacity="0.7"/>
+  <text x="712" y="662" class="px" font-size="13" fill="#f97316">40%</text>
 
 </svg>
