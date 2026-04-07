@@ -30,22 +30,39 @@
 
 ---
 
-## `# about`
+## `# player_profile`
 
-```python
-vishmayraj = {
-    "role"      : "Backend Engineer",
-    "building"  : "DVS-Asia — real-time disaster analytics pipeline",
-    "learning"  : ["Advanced ML", "Data-centric model optimization", "ETL architecture"],
-    "collab_on" : ["Distributed systems", "Backend infra", "Analytics pipelines"],
-    "ask_me"    : ["Backend architecture", "Data pipelines", "Geospatial systems", "Hackathon strategy"],
-    "fun_fact"  : "I either hyperfocus for 6 hours and forget water, or don't touch a project for weeks. Deadlines are my natural energy source.",
-}
+<div align="center">
+
+<img src="svgs/player_profile.svg" width="700" alt="player profile"/>
+
+</div>
+
+---
+
+## `# lore`
+
+```
+> Vishmayraj — Backend Engineer
+
+Specializes in building real-time systems where data is not stored,
+but constantly in motion.
+
+Known for:
+- shipping under pressure
+- designing pipelines that scale before they break
+- turning hackathon ideas into production systems
+
+Current focus:
+→ pushing DVS-Asia into a full-scale disaster intelligence system
+
+Next objective:
+→ Google Internship (LOCKED)
 ```
 
 ---
 
-## `# systems deployed`
+## `# missions completed`
 
 <div align="center">
 
@@ -72,7 +89,7 @@ vishmayraj = {
 
 ---
 
-## `# stack`
+## `# loadout`
 
 <div align="center">
 
@@ -109,7 +126,7 @@ vishmayraj = {
 
 ---
 
-## `# stats`
+## `# performance_metrics`
 
 <div align="center">
 
