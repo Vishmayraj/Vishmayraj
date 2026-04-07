@@ -40,16 +40,17 @@
   <!-- ══════════════════════════════════════════════ -->
 
   <!-- HEAD (old flat pixel style, user's version) -->
-  <rect x="128" y="72" width="64" height="56" fill="#1e293b"/>
+  <rect x="144" y="94" width="66" height="64" fill="#1e293b"/>
   <!-- Face overlay -->
-  <rect x="132" y="76" width="56" height="48" fill="#2dd4bf" opacity="0.15"/>
+  <rect x="147" y="96" width="60" height="60" fill="#2dd4bf" opacity="0.15"/>
   <!-- Eyes -->
-  <rect x="140" y="86" width="8" height="8" fill="#2dd4bf"/>
-  <rect x="172" y="86" width="8" height="8" fill="#2dd4bf"/>
+  <rect x="156" y="108" width="8" height="8" fill="#2dd4bf"/>
+  <rect x="188" y="108" width="8" height="8" fill="#2dd4bf"/>
+
   <!-- Mouth -->
-  <rect x="144" y="102" width="4" height="4" fill="#2dd4bf"/>
-  <rect x="148" y="106" width="16" height="4" fill="#2dd4bf"/>
-  <rect x="164" y="102" width="4" height="4" fill="#2dd4bf"/>
+  <rect x="160" y="126" width="4" height="4" fill="#2dd4bf"/>
+  <rect x="164" y="130" width="16" height="4" fill="#2dd4bf"/>
+  <rect x="180" y="126" width="4" height="4" fill="#2dd4bf"/>
 
   <!-- TORSO (user's version, shifted y+6) -->
   <rect x="129" y="162" width="96" height="88" fill="#1a4a5e"/>
