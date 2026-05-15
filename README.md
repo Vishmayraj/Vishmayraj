@@ -40,7 +40,7 @@ ETL pipelines, geospatial infrastructure, real-time APIs.
 
 Selected for GSoC 2026 with OSGeo as a second-year student.
 Building a metadata connector that bridges OGC SensorThings API
-to STAC and DCAT-AP 3.0 — making sensor data discoverable
+to STAC and DCAT-AP 3.0, making sensor data discoverable
 across geospatial browsers and EU open data portals worldwide.
 
 Known for:
@@ -49,7 +49,7 @@ Known for:
 - turning a hackathon weekend into a production system
 
 Current focus:
-  istSOS4 metadata connector · harvester + transformer + REST API
+  istSOS4 metadata connector: harvester + transformer + REST API
 
 Next objective:
   Portfolio website (Phaser)

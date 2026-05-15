@@ -34,7 +34,7 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/>
     <text x="20" y="116" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">a91f04c</text>
-    <text x="95" y="116" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">fix: @iot.nextLink omission + observedArea on Thing</text>
+    <text x="95" y="116" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">feat: multi-source dedup pipeline, DVS-Asia </text>
   </g>
 
   <!-- commit 4 — QRSLB -->
@@ -48,7 +48,7 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>
     <text x="20" y="156" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316">91be3dc</text>
-    <text x="95" y="156" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">feat: multi-source dedup pipeline, DVS-Asia</text>
+    <text x="95" y="156" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">chore: jpackage Serene Candy into portable .exe</text>
   </g>
 
   <!-- commit 6 — init -->
