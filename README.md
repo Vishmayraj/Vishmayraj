@@ -60,13 +60,13 @@ Next objective:
 ## `# missions completed`
 
 <p align="center">
-<a href="https://disasterviz.onrender.com"><img src="svgs/gsoc_card.svg" width="800"/></a>
+<a href="https://github.com/Vishmayraj/istSOS-MetadataConnector"><img src="svgs/gsoc_card.svg" width="800"/></a>
 </p>
 <p align="center">
-<a href="https://qrslb.onrender.com"><img src="svgs/dvs_card.svg" width="800"/></a>
+<a href="https://disasterviz.onrender.com"><img src="svgs/dvs_card.svg" width="800"/></a>
 </p>
 <p align="center">
-<a href="https://github.com/Vishmayraj/sitewatch"><img src="svgs/qrslb_card.svg" width="800"/></a>
+<a href="https://qrslb.onrender.com"><img src="svgs/qrslb_card.svg" width="800"/></a>
 </p>
 <p align="center">
 <a href="https://github.com/Vishmayraj?tab=repositories"><img src="svgs/roadmap_card.svg" width="800"/></a>
