@@ -60,16 +60,16 @@ Next objective:
 ## `# missions completed`
 
 <p align="center">
-<a href="https://disasterviz.onrender.com"><img src="svgs/dvs_asia_final.svg" width="800"/></a>
+<a href="https://disasterviz.onrender.com"><img src="svgs/gsoc_card.svg" width="800"/></a>
 </p>
 <p align="center">
-<a href="https://qrslb.onrender.com"><img src="svgs/qrslb_project_card.svg" width="800"/></a>
+<a href="https://qrslb.onrender.com"><img src="svgs/dvs_card.svg" width="800"/></a>
 </p>
 <p align="center">
-<a href="https://github.com/Vishmayraj/sitewatch"><img src="svgs/sitewatch_project_card.svg" width="800"/></a>
+<a href="https://github.com/Vishmayraj/sitewatch"><img src="svgs/qrslb_card.svg" width="800"/></a>
 </p>
 <p align="center">
-<a href="https://github.com/Vishmayraj"><img src="svgs/roadmap_project_card_v2.svg" width="800"/></a>
+<a href="https://github.com/Vishmayraj?tab=repositories"><img src="svgs/roadmap_card.svg" width="800"/></a>
 </p>
 
 ---
