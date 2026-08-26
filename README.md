@@ -41,6 +41,8 @@ I like building things where the data does not just sit still: ETL pipelines, ge
 
 This year I got selected for GSoC 2026 with OSGeo, as a second year student, which still feels a little surreal to say out loud. I built a metadata connector that bridges the OGC SensorThings API to STAC and DCAT-AP 3.0, so sensor data stops being stuck inside one system and becomes something geospatial browsers and EU open data portals can actually find and use.
 
+If you ask around, people would probably say I ship under pressure, I build pipelines that scale before they break, and I have a habit of turning a hackathon weekend into something that ends up running in production.
+
 Right now I am writing up the connector as a research paper. After that, I want to build a portfolio site in Phaser, mostly because it sounds fun.
 
 </td></tr>
@@ -119,7 +121,7 @@ Send a link from one device to another without it ever passing through a server 
 ## `# performance_metrics`
 
 <p align="center">
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishmayraj&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=94a3b8&area=true&area_color=2dd4bf&border_color=2dd4bf&title_color=2dd4bf&hide_border=false" />
+<img width="95%" src="metrics.svg" alt="GitHub activity metrics" />
 </p>
 
 ---
