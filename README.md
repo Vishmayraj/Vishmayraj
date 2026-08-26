@@ -32,45 +32,67 @@
 
 ## `# lore`
 
-```bash
-> Vishmayraj ~ Backend Engineer
+<table width="100%">
+<tr><td width="100%">
 
-Specializes in systems where data doesn't sit still.
-ETL pipelines, geospatial infrastructure, real-time APIs.
+Hey, I am Vishmayraj. I am a backend engineer and a B.E. Computer Engineering student at Gujarat Technological University in Ahmedabad, India (2024 to 2028).
 
-Selected for GSoC 2026 with OSGeo as a second-year student.
-Building a metadata connector that bridges OGC SensorThings API
-to STAC and DCAT-AP 3.0, making sensor data discoverable
-across geospatial browsers and EU open data portals worldwide.
+I like building things where the data does not just sit still: ETL pipelines, geospatial infrastructure, real-time APIs, the kind of systems that have to keep working while stuff is actively happening to them.
 
-Known for:
-- shipping under pressure
-- making pipelines that scale before they break
-- turning a hackathon weekend into a production system
+This year I got selected for GSoC 2026 with OSGeo, as a second year student, which still feels a little surreal to say out loud. I built a metadata connector that bridges the OGC SensorThings API to STAC and DCAT-AP 3.0, so sensor data stops being stuck inside one system and becomes something geospatial browsers and EU open data portals can actually find and use.
 
-Current focus:
-  istSOS4 metadata connector: harvester + transformer + REST API
+Right now I am writing up the connector as a research paper. After that, I want to build a portfolio site in Phaser, mostly because it sounds fun.
 
-Next objective:
-  Portfolio website (Phaser)
-```
+</td></tr>
+</table>
 
 ---
 
 ## `# missions completed`
 
-<p align="center">
-<a href="https://github.com/Vishmayraj/istSOS-MetadataConnector"><img src="svgs/gsoc_card.svg" width="800"/></a>
-</p>
-<p align="center">
-<a href="https://disasterviz.onrender.com"><img src="svgs/dvs_card.svg" width="800"/></a>
-</p>
-<p align="center">
-<a href="https://qrslb.onrender.com"><img src="svgs/qrslb_card.svg" width="800"/></a>
-</p>
-<p align="center">
-<a href="https://github.com/Vishmayraj?tab=repositories"><img src="svgs/roadmap_card.svg" width="800"/></a>
-</p>
+<table width="100%">
+<tr><td width="100%">
+
+### GSoC 2026: istSOS4 Metadata Connector
+
+**[Final product and full writeup](https://github.com/Vishmayraj/istSOS4/wiki/GSoC-'26-istSOS-Metadata-Connector)**
+
+> Google Summer of Code 2026, OSGeo. [Program page](https://summerofcode.withgoogle.com/programs/2026/projects/UmLEBaWM)
+
+This is the one I am most proud of. I built a FastAPI service that pulls metadata out of istSOS4 through the OGC SensorThings API and turns it into STAC 1.0 and DCAT-AP 3.0 catalogs, so sensor observation data stops being stuck in one silo and becomes something geospatial catalog browsers and EU open data portals can actually pick up and use.
+
+`OGC SensorThings API` `STAC 1.0` `DCAT-AP 3.0` `FastAPI` `PostgreSQL` `Redis`
+
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td width="100%">
+
+### DisasterViz Asia
+
+**[Live app](https://disasterviz.onrender.com)**
+
+A real-time pipeline that pulls in disaster event data across Asia and puts it on a live dashboard, so you can actually see what is happening instead of digging through raw feeds.
+
+`FastAPI` `Supabase` `GitHub Actions` `Render`
+
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td width="100%">
+
+### QRSLB
+
+**[Live app](https://qrslb.onrender.com)**
+
+Send a link from one device to another without it ever passing through a server in between, just a direct WebRTC peer-to-peer connection between the two.
+
+`WebRTC` `FastAPI` `Vanilla JS`
+
+</td></tr>
+</table>
 
 ---
 
@@ -97,9 +119,6 @@ Next objective:
 ## `# performance_metrics`
 
 <p align="center">
-<img width="70%" src="https://streak-stats.demolab.com?user=Vishmayraj&theme=transparent&background=0d1117&border=2dd4bf&stroke=2dd4bf&ring=2dd4bf&fire=f97316&currStreakNum=2dd4bf&sideNums=94a3b8&currStreakLabel=2dd4bf&sideLabels=64748b&dates=64748b" />
-</p>
-<p align="center">
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishmayraj&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=94a3b8&area=true&area_color=2dd4bf&border_color=2dd4bf&title_color=2dd4bf&hide_border=false" />
 </p>
 
@@ -110,6 +129,7 @@ Next objective:
 <p align="center">
 <a href="https://linkedin.com/in/vishmayraj-zala-121018336"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=2dd4bf" /></a>
 <a href="mailto:zalavishmayraj@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=2dd4bf" /></a>
+<a href="https://orcid.org/0009-0007-9796-9449"><img src="https://img.shields.io/badge/ORCID-0d1117?style=for-the-badge&logo=orcid&logoColor=2dd4bf" /></a>
 <a href="https://instagram.com/notsoteekhipanipuri"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=2dd4bf" /></a>
 </p>
 
