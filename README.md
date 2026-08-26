@@ -61,6 +61,8 @@ Right now I am writing up the connector as a research paper. After that, I want 
 
 This is the one I am most proud of. I built a FastAPI service that pulls metadata out of istSOS4 through the OGC SensorThings API and turns it into STAC 1.0 and DCAT-AP 3.0 catalogs, so sensor observation data stops being stuck in one silo and becomes something geospatial catalog browsers and EU open data portals can actually pick up and use.
 
+Implementation is complete: 37 out of 37 connector tests passing, output validated against the official STAC and DCAT-AP 3.0 SHACL shapes, and stress tested against a 5,600-Thing dataset. Submitted upstream as four pull requests, currently under review.
+
 `OGC SensorThings API` `STAC 1.0` `DCAT-AP 3.0` `FastAPI` `PostgreSQL` `Redis`
 
 </td></tr>
