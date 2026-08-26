@@ -41,8 +41,6 @@ I like building things where the data does not just sit still: ETL pipelines, ge
 
 This year I got selected for GSoC 2026 with OSGeo, as a second year student, which still feels a little surreal to say out loud. I built a metadata connector that bridges the OGC SensorThings API to STAC and DCAT-AP 3.0, so sensor data stops being stuck inside one system and becomes something geospatial browsers and EU open data portals can actually find and use.
 
-If you ask around, people would probably say I ship under pressure, I build pipelines that scale before they break, and I have a habit of turning a hackathon weekend into something that ends up running in production.
-
 Right now I am writing up the connector as a research paper. After that, I want to build a portfolio site in Phaser, mostly because it sounds fun.
 
 </td></tr>
@@ -74,6 +72,7 @@ This is the one I am most proud of. I built a FastAPI service that pulls metadat
 ### DisasterViz Asia
 
 **[Live app](https://disasterviz.onrender.com)**
+**[Source Code](https://github.com/Vishmayraj/DVS-Asia)**
 
 A real-time pipeline that pulls in disaster event data across Asia and puts it on a live dashboard, so you can actually see what is happening instead of digging through raw feeds.
 
@@ -88,6 +87,7 @@ A real-time pipeline that pulls in disaster event data across Asia and puts it o
 ### QRSLB
 
 **[Live app](https://qrslb.onrender.com)**
+**[Source Code](https://github.com/Vishmayraj/qrslb)**
 
 Send a link from one device to another without it ever passing through a server in between, just a direct WebRTC peer-to-peer connection between the two.
 
@@ -121,7 +121,7 @@ Send a link from one device to another without it ever passing through a server 
 ## `# performance_metrics`
 
 <p align="center">
-<img width="95%" src="metrics.svg" alt="GitHub activity metrics" />
+<img src="metrics.svg" alt="GitHub activity metrics" />
 </p>
 
 ---
